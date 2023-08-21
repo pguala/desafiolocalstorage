@@ -1,6 +1,6 @@
 function guardarStorage(){
     let entrada = document.getElementById("inputText").value;
-    sessionStorage.setItem("data", entrada)
+    localStorage.setItem("data", entrada)
 }
 
 let boton = document.getElementById("buttonText");

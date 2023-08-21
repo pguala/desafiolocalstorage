@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let data = sessionStorage.getItem("data");
+  let data = localStorage.getItem("data");
   document.getElementById("data").innerHTML = data;
 });
